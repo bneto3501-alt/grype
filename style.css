@@ -1,0 +1,26 @@
+/* Padronização das imagens para exibição uniforme */
+.img-carousel {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.img-card {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Limitação de largura do formulário */
+.max-width-form {
+  max-width: 600px;
+}
+
+/* Transição suave para alternância de tema */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Destaque para botões no Accordion ativo */
+.accordion-button:not(.collapsed) {
+  color: #dc3545;
+  background-color: #f8d7da;
+}
